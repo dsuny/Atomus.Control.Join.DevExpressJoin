@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{63FDA356-CBD1-411D-9656-A6B629ED4B08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotNet", "dotNet", "{7A51E2B7-FDF0-4BDE-959A-851E4588F4BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Control.Join.DevExpressJoin.V18.1(dotNet)", "dotNet\DevExpress.v18.1\Atomus.Control.Join.DevExpressJoin.V18.1(dotNet).csproj", "{F982575B-5520-4740-B44D-5C2DBC37396E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{201E1872-E982-4061-9B0A-CB30D8308D9F}"
+	ProjectSection(SolutionItems) = preProject
+		src\Controllers\DevExpressJoinController.cs = src\Controllers\DevExpressJoinController.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{706D4432-2DD5-49F4-B903-B74B40A636E4}"
+	ProjectSection(SolutionItems) = preProject
+		src\Models\DevExpressJoinSaveModel.cs = src\Models\DevExpressJoinSaveModel.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{87E3CBF5-85BE-4BF9-A64B-5272C9579978}"
+	ProjectSection(SolutionItems) = preProject
+		src\Views\DevExpressJoin.cs = src\Views\DevExpressJoin.cs
+		src\Views\DevExpressJoin.Designer.cs = src\Views\DevExpressJoin.Designer.cs
+		src\Views\DevExpressJoin.resx = src\Views\DevExpressJoin.resx
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Control.Join.DevExpressJoin.V20.1(dotNet)", "dotNet\DevExpress.v20.1\Atomus.Control.Join.DevExpressJoin.V20.1(dotNet).csproj", "{D21093B1-0D47-494A-B477-8F7A8B3E13DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F982575B-5520-4740-B44D-5C2DBC37396E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F982575B-5520-4740-B44D-5C2DBC37396E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F982575B-5520-4740-B44D-5C2DBC37396E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F982575B-5520-4740-B44D-5C2DBC37396E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D21093B1-0D47-494A-B477-8F7A8B3E13DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D21093B1-0D47-494A-B477-8F7A8B3E13DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D21093B1-0D47-494A-B477-8F7A8B3E13DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D21093B1-0D47-494A-B477-8F7A8B3E13DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F982575B-5520-4740-B44D-5C2DBC37396E} = {7A51E2B7-FDF0-4BDE-959A-851E4588F4BF}
+		{201E1872-E982-4061-9B0A-CB30D8308D9F} = {63FDA356-CBD1-411D-9656-A6B629ED4B08}
+		{706D4432-2DD5-49F4-B903-B74B40A636E4} = {63FDA356-CBD1-411D-9656-A6B629ED4B08}
+		{87E3CBF5-85BE-4BF9-A64B-5272C9579978} = {63FDA356-CBD1-411D-9656-A6B629ED4B08}
+		{D21093B1-0D47-494A-B477-8F7A8B3E13DC} = {7A51E2B7-FDF0-4BDE-959A-851E4588F4BF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEF8885B-3451-43C1-BAC4-41915DB783CA}
+	EndGlobalSection
+EndGlobal
